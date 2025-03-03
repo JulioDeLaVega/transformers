@@ -1,13 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  height: 100vh;
-  margin: 0;
 }
 
 .container {
   margin-left:10em;
-  margin-top:10em;
-  width: 50em;
+    margin-top:10em;
+    margin-right:10em;
+    margin-bottom:10em;
 }
 
 h1 {
@@ -15,12 +14,11 @@ h1 {
 }
 
 input {
-  width: calc(100% - 20px);
-  padding: 10px;
-  margin: 10px 0;
+  padding: 1em;
+  margin: 1empx 0;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 16px;
+  width: 30em;
 }
 
 button {
@@ -74,4 +72,13 @@ pre {
   grid-template-columns: auto 1fr; /* Icon takes auto width, text takes remaining space */
   align-items: center; /* Aligns icon and text vertically */
   gap: 1em;
+}
+
+@media only screen and (max-width : 600px) {
+  .container {
+    margin-left:2em;
+    margin-top:2em;
+    margin-right:2em;
+    margin-bottom:2em;
+  }
 }
