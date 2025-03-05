@@ -15,10 +15,19 @@ h1 {
 
 input {
   padding: 1em;
-  margin: 1empx 0;
+  margin: 1em 0;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 0.3em;
   width: 30em;
+}
+
+textarea {
+  padding: 1em;
+  margin: 1em 0;
+  border: 1px solid #ccc;
+  border-radius: 0.3em;
+  width: 100em;
+  font-family: Arial, sans-serif;
 }
 
 button {
@@ -62,8 +71,16 @@ pre {
   100% { transform: rotate(360deg); }
 }
 
-.arrow:hover {
+.icon:hover {
   color: grey;
+  cursor: pointer;  
+}
+
+.click {
+  color: grey;  
+}
+
+.click:hover {
   cursor: pointer;  
 }
 
@@ -81,4 +98,19 @@ pre {
     margin-right:2em;
     margin-bottom:2em;
   }
+}
+
+
+
+.iconsearch:hover{
+  background-color: rgb(199, 199, 199);
+  cursor: pointer;
+}
+
+.context{
+  padding: 0.5em 2em;
+  margin: 1em 0;
+  border-radius: 0.3em;
+  background-color: rgb(243, 243, 243);
+  
 }
